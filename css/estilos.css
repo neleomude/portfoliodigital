@@ -1,0 +1,48 @@
+*{
+    scroll-behavior:smooth;
+ 
+}
+a:hover{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+a:active{
+    filter: drop-shadow(0 0 2px #191919);
+}
+a:visited{
+    filter: drop-shadow(0 0 2px #191919);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:active{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+.jumbotron{
+   
+  background-color: #c6b5ad;
+}
+.card-columns {
+columns: 2;
+  }
+
+
+  @media (max-width: 580px){
+    .card-columns {
+        columns: 1;
+          }
+
+  }
